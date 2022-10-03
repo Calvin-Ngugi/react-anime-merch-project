@@ -4,70 +4,70 @@
         "id": 1,
         "name": "Jujutsu Kaisen black hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-jujutsu-kaisen-logo-hoodie-29748885159980_2000x2000.jpg?v=1645651851",
-        "type": "hoodies",
+        "type": "Hoodies",
         "description": "The translation for this nice hoodie is Jujutsu Kaisen"
     },
     {
         "id": 2,
         "name": "Gon Kanji Hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-hunter-x-hunter-gon-kanji-hoodie-30076795027500_2000x2000.jpg?v=1649803370",
-        "type": "hoodies",
+        "type": "Hoodies",
         "description": "Gon from Hunter x Hunter hoodie"
     },
     {
         "id": 3,
         "name": "Shadow clone hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-naruto-shippuden-naruto-shadow-clone-cast-dye-hoodie-30076811411500_2000x2000.jpg?v=1649803732",
-        "type": "hoodies",
+        "type": "Hoodies",
         "description": "Naruto Shadow Clone Cast Dye Hoodie"
     },
     {
         "id": 4,
         "name": "Wings of freedom hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ripple-junction-hoodies-outerwear-attack-on-titan-wings-of-freedom-hoodie-28430337966124_2000x2000.jpg?v=1633058333",
-        "type": "hoodies",
+        "type": "Hoodies",
         "description": "Attack On Titan - Wings Of Freedom Hoodie"
     },
     {
         "id": 5,
         "name": "Tokyo Ghoul hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-tokyo-ghoul-kaneki-mask-kanji-hoodie-29749089501228_2000x2000.jpg?v=1645654550",
-        "type": "hoodies",
+        "type": "Hoodies",
         "description": "Tokyo Ghoul - Kaneki Mask Kanji Hoodie"
     },
     {
         "id": 6,
         "name": "Tanjiro t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/funko-unisex-t-shirts-demon-slayer-kimetsu-no-yaiba-tanjiro-demon-slayer-corps-t-shirt-29852130017324_2000x2000.jpg?v=1647048301",
-        "type": "t-shirts",
+        "type": "T-shirts",
         "description": "Demon Slayer: Kimetsu No Yaiba - Tanjiro Demon Slayer Corps T-Shirt"
     },
     {
         "id": 7,
         "name": "My Hero Academia t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-my-hero-academia-deku-bakugo-plus-ultra-dye-t-shirt-30274844590124_2000x2000.jpg?v=1652141571",
-        "type": "t-shirts",
+        "type": "T-shirts",
         "description": "My Hero Academia - Deku Bakugo Plus Ultra Dye T-Shirt"
     },
     {
         "id": 8,
         "name": "Tokyo Revengers t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-tokyo-revengers-trio-t-shirt-30945880735788_2000x2000.jpg?v=1658170490",
-        "type": "t-shirts",
+        "type": "T-shirts",
         "description": "Tokyo Revengers - Mikey, Draken and Takemichi T-Shirt"
     },
     {
         "id": 9,
         "name": "Bleach Byakuya t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-bleach-byakuya-stand-t-shirt-30965295415340_2000x2000.jpg?v=1658331770",
-        "type": "t-shirts",
+        "type": "T-shirts",
         "description": "Bleach - Byakuya Stand T-Shirt"
     },
     {
         "id": 10,
         "name": "Jojo's Bizarre Adventure t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-jojo-s-bizarre-adventure-joseph-rudol-caeser-t-shirt-30680892538924_2000x2000.jpg?v=1656001312",
-        "type": "t-shirts",
+        "type": "T-shirts",
         "description": "JoJo's Bizarre Adventure - Joseph Rudol Caeser T-Shirt"
     },
     {
