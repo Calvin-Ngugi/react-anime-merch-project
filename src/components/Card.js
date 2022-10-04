@@ -9,10 +9,10 @@ const Card = ({ merch }) => {
         <h4 className="card-title">{merch.name}</h4>
         <small className="text-muted">{merch.type}</small>
         <p className="card-text">{merch.description}</p>
-        {/* <div className="buttons">
+        <div className="card-button">
         <button onClick={()=>console.log("add sth")} className="btn btn-primary">Purchase</button>
         <button onClick={()=>console.log("add sth")} className="btn btn-danger">Delete</button>
-      </div> */}
+      </div>
       </div>
       </div>
     </div>
