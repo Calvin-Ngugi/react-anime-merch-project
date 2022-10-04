@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import CardList from './CardList'
 import Pagination from './Pagination'
+import { Redirect } from "react-router-dom";
 
-const Home = () => {
+const Home = ({isLoggedIn}) => {
     const [cards, setCards] = useState([])
     const [currentPage, setCurrentPage] = useState(1)
     const [merchPerPage] = useState(4)
-
+    
+    if (!isLoggedIn) return <Redirect to="/login" />
+    
     const indexOfLastCard = currentPage * merchPerPage;
     const indexOfFirstCard = indexOfLastCard - merchPerPage;
     const currentCards = cards.slice(indexOfFirstCard, indexOfLastCard);
@@ -22,7 +25,7 @@ const Home = () => {
         merchPerPage={merchPerPage}
         totalMerch={cards.length}
         paginate={paginate}
-    />
+        />
     </div>
   )
 }

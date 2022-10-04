@@ -12,9 +12,9 @@ const Pagination = ({merchPerPage, totalMerch, paginate}) => {
         <ul className='pagination'>
             {pageNumbers.map(number => (
                 <li key={number} className="page-item my-4 mx-1">
-                    <a onClick={() => paginate(number)} href='!#' className='page-link text-dark text-center'>
+                    <button onClick={() => paginate(number)} className='page-link text-dark text-center'>
                         {number}
-                    </a>
+                    </button>
                 </li>
             ))}
         </ul>
