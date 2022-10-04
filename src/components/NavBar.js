@@ -10,37 +10,62 @@ function Navbar({ setIsLoggedIn }) {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
-      <div className="container" style={{justifyContent: "space-between"}}>
+    <nav className="navbar navbar-expand-sm bg-light">
+      <div className="container">
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <NavLink to="/" exact activeStyle={{ background: "#def" }} className="nav-link">
-                Home
+          <li className="nav-item" style={{ width: "100px" }}>
+            <NavLink
+              to="/"
+              exact
+              activeStyle={{ background: "#def" }}
+              className="nav-link"
+            >
+              Home
             </NavLink>
           </li>
 
-          <li className="nav-item">
-            <NavLink to="/about" exact activeStyle={{ background: "#def" }} className="nav-link">              
-                About
+          <li className="nav-item" style={{ width: "100px" }}>
+            <NavLink
+              to="/about"
+              exact
+              activeStyle={{ background: "#def" }}
+              className="nav-link"
+            >
+              About
             </NavLink>
           </li>
 
-          <li className="nav-item">
-            <NavLink to="/login" exact activeStyle={{ background: "#def" }} className="nav-link">
-                Login
+          <li className="nav-item" style={{ width: "100px" }}>
+            <NavLink
+              to="/cart"
+              exact
+              activeStyle={{ background: "#def" }}
+              className="nav-link"
+            >
+              Cart
             </NavLink>
           </li>
 
+          <li className="nav-item" style={{ width: "100px" }}>
+            <NavLink
+              to="/login"
+              exact
+              activeStyle={{ background: "#def" }}
+              className="nav-link"
+            >
+              Login
+            </NavLink>
+          </li>
         </ul>
 
-        </div>
         <button
           onClick={handleLogout}
           className="btn btn-outline-danger"
-          style={{width: "100px", marginLeft: "250px", marginRight: "100px"}}
+          style={{ width: "100px" }}
         >
           Logout
         </button>
+      </div>
     </nav>
   );
 }
