@@ -5,140 +5,160 @@
         "name": "Jujutsu Kaisen black hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-jujutsu-kaisen-logo-hoodie-29748885159980_2000x2000.jpg?v=1645651851",
         "type": "Hoodies",
-        "description": "The translation for this nice hoodie is Jujutsu Kaisen"
+        "description": "The translation for this nice hoodie is Jujutsu Kaisen",
+        "price": "ksh 3000"
     },
     {
         "id": 2,
         "name": "Gon Kanji Hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-hunter-x-hunter-gon-kanji-hoodie-30076795027500_2000x2000.jpg?v=1649803370",
         "type": "Hoodies",
-        "description": "Gon from Hunter x Hunter hoodie"
+        "description": "Gon from Hunter x Hunter hoodie",
+        "price": "ksh 3000"
     },
     {
         "id": 3,
         "name": "Shadow clone hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-naruto-shippuden-naruto-shadow-clone-cast-dye-hoodie-30076811411500_2000x2000.jpg?v=1649803732",
         "type": "Hoodies",
-        "description": "Naruto Shadow Clone Cast Dye Hoodie"
+        "description": "Naruto Shadow Clone Cast Dye Hoodie",
+        "price": "ksh 3500"
     },
     {
         "id": 4,
         "name": "Wings of freedom hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ripple-junction-hoodies-outerwear-attack-on-titan-wings-of-freedom-hoodie-28430337966124_2000x2000.jpg?v=1633058333",
         "type": "Hoodies",
-        "description": "Attack On Titan - Wings Of Freedom Hoodie"
+        "description": "Attack On Titan - Wings Of Freedom Hoodie",
+        "price": "ksh 2500"
     },
     {
         "id": 5,
         "name": "Tokyo Ghoul hoodie",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-hoodies-outerwear-tokyo-ghoul-kaneki-mask-kanji-hoodie-29749089501228_2000x2000.jpg?v=1645654550",
         "type": "Hoodies",
-        "description": "Tokyo Ghoul - Kaneki Mask Kanji Hoodie"
+        "description": "Tokyo Ghoul - Kaneki Mask Kanji Hoodie",
+        "price": "ksh 2500"
     },
     {
         "id": 6,
         "name": "Tanjiro t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/funko-unisex-t-shirts-demon-slayer-kimetsu-no-yaiba-tanjiro-demon-slayer-corps-t-shirt-29852130017324_2000x2000.jpg?v=1647048301",
         "type": "T-shirts",
-        "description": "Demon Slayer: Kimetsu No Yaiba - Tanjiro Demon Slayer Corps T-Shirt"
+        "description": "Demon Slayer: Kimetsu No Yaiba - Tanjiro Demon Slayer Corps T-Shirt",
+        "price": "ksh 1500"
     },
     {
         "id": 7,
         "name": "My Hero Academia t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-my-hero-academia-deku-bakugo-plus-ultra-dye-t-shirt-30274844590124_2000x2000.jpg?v=1652141571",
         "type": "T-shirts",
-        "description": "My Hero Academia - Deku Bakugo Plus Ultra Dye T-Shirt"
+        "description": "My Hero Academia - Deku Bakugo Plus Ultra Dye T-Shirt",
+        "price": "ksh 1500"
     },
     {
         "id": 8,
         "name": "Tokyo Revengers t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-tokyo-revengers-trio-t-shirt-30945880735788_2000x2000.jpg?v=1658170490",
         "type": "T-shirts",
-        "description": "Tokyo Revengers - Mikey, Draken and Takemichi T-Shirt"
+        "description": "Tokyo Revengers - Mikey, Draken and Takemichi T-Shirt",
+        "price": "ksh 1200"
     },
     {
         "id": 9,
         "name": "Bleach Byakuya t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-bleach-byakuya-stand-t-shirt-30965295415340_2000x2000.jpg?v=1658331770",
         "type": "T-shirts",
-        "description": "Bleach - Byakuya Stand T-Shirt"
+        "description": "Bleach - Byakuya Stand T-Shirt",
+        "price": "ksh 1500"
     },
     {
         "id": 10,
         "name": "Jojo's Bizarre Adventure t-shirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-jojo-s-bizarre-adventure-joseph-rudol-caeser-t-shirt-30680892538924_2000x2000.jpg?v=1656001312",
         "type": "T-shirts",
-        "description": "JoJo's Bizarre Adventure - Joseph Rudol Caeser T-Shirt"
+        "description": "JoJo's Bizarre Adventure - Joseph Rudol Caeser T-Shirt",
+        "price": "ksh 1000"
     },
     {
         "id": 11,
         "name": "Hatake Kakashi long sleeve",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ripple-junction-unisex-t-shirts-naruto-shippuden-kakashi-hatake-anbu-art-long-sleeve-crunchyroll-exclusive-30460386607148_2000x2000.jpg?v=1654110063",
         "type": "Sweat-shirts",
-        "description": "Naruto Shippuden - Kakashi Hatake Anbu Art Long Sleeve"
+        "description": "Naruto Shippuden - Kakashi Hatake Anbu Art Long Sleeve",
+        "price": "ksh 2700"
     },
     {
         "id": 12,
         "name": "Bleach sweatshirt ",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ripple-junction-unisex-t-shirts-bleach-ichigo-repetition-long-sleeve-crunchyroll-exclusive-30226975916076_2000x2000.jpg?v=1651599770",
         "type": "Sweat-shirts",
-        "description": "Bleach - Ichigo Repetition Long Sleeve"
+        "description": "Bleach - Ichigo Repetition Long Sleeve",
+        "price": "ksh 2500"
     },
     {
         "id": 13,
         "name": "The Strawhats Jolly Roger",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ripple-junction-unisex-t-shirts-one-piece-rainbow-dye-jolly-roger-long-sleeve-crunchyroll-exclusive-31511261806636_2000x2000.jpg?v=1663172511",
         "type": "Sweat-shirts",
-        "description": "One Piece - Rainbow Dye Jolly Roger Long Sleeve"
+        "description": "One Piece - Rainbow Dye Jolly Roger Long Sleeve",
+        "price": "ksh 2700"
     },
     {
         "id": 14,
         "name": "Devil Fruits sweatshirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ripple-junction-hoodies-outerwear-one-piece-devil-fruit-crew-sweatshirt-crunchyroll-exclusive-30460395257900_2000x2000.jpg?v=1654109523",
         "type": "Sweat-shirts",
-        "description": "One Piece - Devil Fruit Crew Sweatshirt"
+        "description": "One Piece - Devil Fruit Crew Sweatshirt",
+        "price": "ksh 2000"
     },
     {
         "id": 15,
         "name": "MHA villains sweatshirt",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-my-hero-academia-villains-long-sleeve-29623898472492_2000x2000.jpg?v=1643837272",
         "type": "Sweat-shirts",
-        "description": "My Hero Academia - Villains Long Sleeve"
+        "description": "My Hero Academia - Villains Long Sleeve",
+        "price": "ksh 2500"
     },
     {
         "id": 16,
         "name": "Anbu neon mask",
         "image": "https://m.media-amazon.com/images/I/61d7smmulUS._AC_UL480_FMwebp_QL65_.jpg",
         "type": "Accessories",
-        "description": "Anbu Neon Mask Light Up Glow for Halloween Costume Festival Cosplay"
+        "description": "Anbu Neon Mask Light Up Glow for Halloween Costume Festival Cosplay",
+        "price": "ksh 1000"
     },
     {
         "id": 17,
         "name": "Demon Slayer Backpack",
         "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-backpacks-bags-demon-slayer-character-pattern-mini-backpack-29055575392300_2000x2000.jpg?v=1635891353",
         "type": "Accessories",
-        "description": "Demon Slayer - Character Pattern Mini Backpack"
+        "description": "Demon Slayer - Character Pattern Mini Backpack",
+        "price": "ksh 2000"
     },
     {
         "id": 18,
         "name": "Naruto Shippuden pendant necklaces",
         "image": "https://sc04.alicdn.com/kf/H68c2e88dc3484e058f050080e33fbc34C.jpg",
         "type": "Accessories",
-        "description": "Anime Jewelry Theme Pendant Necklaces"
+        "description": "Anime Jewelry Theme Pendant Necklaces",
+        "price": "ksh 600"
     },
     {
         "id": 19,
         "name": "Naruto Headbands",
         "image": "https://nairobiotakushop.co.ke/wp-content/uploads/2018/02/Naruto-Headbands.jpg",
         "type": "Accessories",
-        "description": "Headbands from various villages in Naruto"
+        "description": "Headbands from various villages in Naruto",
+        "price": "ksh 500"
     },
     {
         "id": 20,
         "name": "Attack on Titan mug",
         "image": "https://animehub.co.ke/wp-content/uploads/2021/09/Attack-On-Titan-Mugs.jpg-768x768.webp",
         "type": "Accessories",
-        "description": "Attack on Titan Mug"
+        "description": "Attack on Titan Mug",
+        "price": "ksh 500"
     }
 ]
 }
