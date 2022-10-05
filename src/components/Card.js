@@ -1,6 +1,9 @@
 import React from "react";
+import {useCart} from "react-use-cart"
 
 const Card = ({ merch }) => {
+  const {addItem} = useCart();
+
   return (
     <div className="col">
     <div className="card h-100">
@@ -9,9 +12,10 @@ const Card = ({ merch }) => {
         <h4 className="card-title">{merch.name}</h4>
         <small className="text-muted">{merch.type}</small>
         <p className="card-text">{merch.description}</p>
-        <div className="card-button">
-        <button onClick={()=>console.log("add sth")} className="btn btn-primary">Purchase</button>
-        <button onClick={()=>console.log("add sth")} className="btn btn-danger">Delete</button>
+        <p className="card-text text-success">=Ksh {merch.price}</p>
+        <div className="card-button row d-flex justify-content-between">
+        <button onClick={()=>addItem(merch)} className="btn btn-primary ms-2 mb-1" style={{width: "120px"}}>Add to Cart</button>
+        <button onClick={()=>console.log("delete sth")} className="btn btn-danger ms-2 mb-1" style={{width: "120px"}}>Delete</button>
       </div>
       </div>
       </div>

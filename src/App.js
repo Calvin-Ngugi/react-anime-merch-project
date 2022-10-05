@@ -6,6 +6,8 @@ import NavBar from './components/NavBar';
 import './App.css'
 import Login from './components/Login';
 import About from './components/About';
+import CartList from './components/CartList';
+import {CartProvider} from 'react-use-cart'
 
 const App = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -20,9 +22,14 @@ const App = () => {
     <Route exact path="/login">
         <Login setIsLoggedIn={setIsLoggedIn} />
     </Route>
-    <Route path="/">
+    <CartProvider>
+    <Route exact path="/cart">
+        <CartList isLoggedIn={isLoggedIn}/>
+    </Route>  
+    <Route exact path="/">
         <Home isLoggedIn={isLoggedIn}/>
     </Route>
+    </CartProvider>
     </Switch>
     </>
   )
