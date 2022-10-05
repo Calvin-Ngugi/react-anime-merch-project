@@ -36,7 +36,7 @@ const CartList = ({isLoggedIn}) => {
                 {displayCards}
             </div>
             <div className='col-auto ms-auto'>
-                <h2>Total Price: Ksh {cartTotal}</h2>
+                <h3>Total Price: Ksh {cartTotal}</h3>
             </div>
             <div className='col-auto'>
                 <button
