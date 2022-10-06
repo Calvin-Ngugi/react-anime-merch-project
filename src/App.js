@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/js/bootstrap.js';
 import Home from './components/Home'
 import NavBar from './components/NavBar';
 import './App.css'
