@@ -1,17 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Card from "./Card";
 
-const CardList = ({ cards, setCards }) => {
-  useEffect(() => {
-    fetch(`https://react-anime-merch-api.herokuapp.com/data`)
-      .then((res) => res.json())
-      .then((aniInfo) => {
-        setCards(aniInfo);
-      });
-  }, [setCards]);
+const CardList = ({ cards, setCards, handleDelete }) => {
 
   const displayCards = cards.map((merch) => (
-    <Card key={merch.id} merch={merch} cards={cards} setCards={setCards} />
+    <Card key={merch.id} merch={merch} cards={cards} setCards={setCards} handleDelete={handleDelete} />
   ));
 
   return (
