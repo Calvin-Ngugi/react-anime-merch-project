@@ -3,6 +3,7 @@ import CardList from './CardList'
 import Pagination from './Pagination'
 import { Redirect } from "react-router-dom";
 import IntroCard from './IntroCard';
+import AddItems from './AddItems';
 
 const Home = ({isLoggedIn}) => {
     const [cards, setCards] = useState([])
@@ -37,6 +38,10 @@ const Home = ({isLoggedIn}) => {
         totalMerch={cards.length}
         paginate={paginate}
         />
+    <AddItems
+      cards={cards}
+      setCards={setCards}
+    />
     </div>
   )
 }

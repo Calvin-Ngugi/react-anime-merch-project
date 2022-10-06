@@ -70,24 +70,3 @@ function Login({ setIsLoggedIn }) {
 }
 
 export default Login;
-
-
-  /*
-      <form onSubmit={handleSubmit}>
-      <h1>Login</h1>
-      <input
-        type="text"
-        name="username"
-        value={formData.username}
-        onChange={handleChange}
-      />
-      <input
-        type="password"
-        name="password"
-        value={formData.password}
-        onChange={handleChange}
-      />
-      <button type="submit">Login</button>
-    </form>
-*/
-

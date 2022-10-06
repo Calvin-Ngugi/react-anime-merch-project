@@ -8,7 +8,7 @@ const CardList = ({ cards, setCards }) => {
       .then((aniInfo) => {
         setCards(aniInfo);
       });
-  }, []);
+  }, [setCards]);
 
   const displayCards = cards.map((merch) => (
     <Card key={merch.id} merch={merch} cards={cards} setCards={setCards} />
