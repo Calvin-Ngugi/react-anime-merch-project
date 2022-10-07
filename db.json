@@ -159,6 +159,22 @@
         "type": "Accessories",
         "description": "Attack on Titan Mug",
         "price": "500"
-    }
+    },
+    {
+        "id": 21,
+        "name": "Six path Naruto hoodie",
+        "image": "https://cdn.media.amplience.net/s/hottopic/18637175_hi?$productMainDesktop$",
+        "type": "Hoodies",
+        "description": "Naruto Shippuden Six Paths Sage Mode Cosplay Hoodie",
+        "price": "3500"
+      },
+      {
+        "id": 22,
+        "name": "My Hero Academia Sweatshirt",
+        "image": "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-unisex-t-shirts-my-hero-academia-deku-mask-split-long-sleeve-crunchyroll-exclusive-29921304248364_2000x2000.jpg?v=1648074833",
+        "type": "Sweatshirts",
+        "description": "My Hero Academia - Deku Mask Split Long Sleeve",
+        "price": "2800"
+      }
 ]
 }

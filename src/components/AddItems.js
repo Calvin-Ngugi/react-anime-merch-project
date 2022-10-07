@@ -2,10 +2,11 @@ import React, { useState } from "react";
 
 const AddItems = ({ cards, setCards }) => {
   const [addItemsForm, setAddItemsForm] = useState({
-    image: "",
+    id: 0,
     name: "",
-    description: "",
+    image: "",
     type: "",
+    description: "",
     price: 0,
   });
 

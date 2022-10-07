@@ -16,17 +16,12 @@ const Home = ({isLoggedIn}) => {
       .then((aniInfo) => {
         setCards(aniInfo);
       });
-    }, [setCards]);
+    }, [cards]);
 
     const indexOfLastCard = currentPage * merchPerPage;
     const indexOfFirstCard = indexOfLastCard - merchPerPage;
     const currentCards = cards.slice(indexOfFirstCard, indexOfLastCard);
-    
-    console.log(indexOfLastCard);
-    console.log(indexOfFirstCard);
-    console.log(currentCards);
-    
-    
+     
     if (!isLoggedIn) return <Redirect to="/login" />
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber)
