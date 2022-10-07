@@ -1,7 +1,10 @@
-# Process of Build
+# React-Anime-Merch-Project
 
-This app was created using react's npx-create-react-app
-The backend was created using Heroku
+This app was created using react's npx-create-react-app.
+
+The CSS was handled by Bootstrap 5
+
+The backend was launched on Heroku, while the frontend was launched on Vercel.
 
 ## React App on Heroku
 
@@ -30,3 +33,14 @@ git commit -am "my first commit"
 ```bash
 git push heroku master
 ```
+
+<p align="center">
+  <a href="https://vercel.com">
+    <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
+    <h3 align="center">Vercel</h3>
+  </a>
+</p>
+
+## Deploy
+
+Get started by [importing a project](https://vercel.com/new) or using the [Vercel CLI](https://vercel.com/cli). Then, `git push` to deploy.
