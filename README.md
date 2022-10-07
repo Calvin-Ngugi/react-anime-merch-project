@@ -6,6 +6,14 @@ The CSS was handled by Bootstrap 5
 
 The backend was launched on Heroku, while the frontend was launched on Vercel.
 
+
+<p align="center">
+  <a href="https://heroku.com">
+    <img src="https://cdn-icons-png.flaticon.com/512/873/873120.png" height="96">
+    <h3 align="center">Heroku</h3>
+  </a>
+</p>
+
 ## React App on Heroku
 
 1) Create a Heroku account.
@@ -44,3 +52,4 @@ git push heroku master
 ## Deploy
 
 Get started by [importing a project](https://vercel.com/new) or using the [Vercel CLI](https://vercel.com/cli). Then, `git push` to deploy.
+I would definitely recommend using for front-end deployment
