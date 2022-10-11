@@ -12,59 +12,73 @@ function Navbar({ setIsLoggedIn }) {
   return (
     <nav className="navbar navbar-expand-sm bg-light">
       <div className="container">
-        <ul className="navbar-nav">
-          <li className="nav-item" style={{ width: "100px" }}>
-            <NavLink
-              to="/"
-              exact
-              activeStyle={{ background: "#def" }}
-              className="nav-link"
-            >
-              Home
-            </NavLink>
-          </li>
-
-          <li className="nav-item" style={{ width: "100px" }}>
-            <NavLink
-              to="/about"
-              exact
-              activeStyle={{ background: "#def" }}
-              className="nav-link"
-            >
-              About
-            </NavLink>
-          </li>
-
-          <li className="nav-item" style={{ width: "100px" }}>
-            <NavLink
-              to="/cart"
-              exact
-              activeStyle={{ background: "#def" }}
-              className="nav-link"
-            >
-              Cart
-            </NavLink>
-          </li>
-
-          <li className="nav-item" style={{ width: "100px" }}>
-            <NavLink
-              to="/login"
-              exact
-              activeStyle={{ background: "#def" }}
-              className="nav-link"
-            >
-              Login
-            </NavLink>
-          </li>
-        </ul>
-
         <button
-          onClick={handleLogout}
-          className="btn btn-outline-danger"
-          style={{ width: "100px" }}
+          className="navbar-toggler mb-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style={{width: "60px"}}
         >
-          Logout
+          <span className="navbar-toggler-icon"></span>
         </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav">
+            <li className="nav-item" style={{ width: "100px" }}>
+              <NavLink
+                to="/"
+                exact
+                activeStyle={{ background: "#def" }}
+                className="nav-link"
+              >
+                Home
+              </NavLink>
+            </li>
+
+            <li className="nav-item" style={{ width: "100px" }}>
+              <NavLink
+                to="/about"
+                exact
+                activeStyle={{ background: "#def" }}
+                className="nav-link"
+              >
+                About
+              </NavLink>
+            </li>
+
+            <li className="nav-item" style={{ width: "100px" }}>
+              <NavLink
+                to="/cart"
+                exact
+                activeStyle={{ background: "#def" }}
+                className="nav-link"
+              >
+                Cart
+              </NavLink>
+            </li>
+
+            <li className="nav-item" style={{ width: "100px" }}>
+              <NavLink
+                to="/login"
+                exact
+                activeStyle={{ background: "#def" }}
+                className="nav-link"
+              >
+                Login
+              </NavLink>
+            </li>
+          </ul>
+
+          <button
+            onClick={handleLogout}
+            className="btn btn-outline-danger"
+            style={{ width: "100px" }}
+          >
+            Logout
+          </button>
+        </div>
       </div>
     </nav>
   );
