@@ -55,7 +55,6 @@ function Login({ setIsLoggedIn }) {
                   className="form-check-input"
                   id="exampleCheck1"
                 />
-                <label className="form-check-label">This does nothing :)</label>
               </div>
               <div>
                 <button type="submit" className="btn btn-primary">
