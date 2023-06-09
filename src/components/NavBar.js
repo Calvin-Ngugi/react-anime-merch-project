@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, useHistory } from "react-router-dom";
 
-function Navbar({ setIsLoggedIn }) {
+function Navbar({ setIsLoggedIn, isLoggedIn }) {
   const history = useHistory();
 
   function handleLogout() {
@@ -20,7 +20,7 @@ function Navbar({ setIsLoggedIn }) {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          style={{width: "60px"}}
+          style={{ width: "60px" }}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -58,26 +58,29 @@ function Navbar({ setIsLoggedIn }) {
                 Cart
               </NavLink>
             </li>
-
-            <li className="nav-item" style={{ width: "100px" }}>
-              <NavLink
-                to="/login"
-                exact
-                activeStyle={{ background: "#def" }}
-                className="nav-link"
+            </ul>
+            {isLoggedIn ? (
+              <button
+                onClick={handleLogout}
+                className="btn btn-outline-danger"
+                style={{ width: "100px" }}
               >
-                Login
-              </NavLink>
-            </li>
-          </ul>
-
-          <button
-            onClick={handleLogout}
-            className="btn btn-outline-danger"
-            style={{ width: "100px" }}
-          >
-            Logout
-          </button>
+                Logout
+              </button>
+            ) : (
+              <button
+                className="btn btn-outline-success"
+                style={{ width: "100px" }}
+              >
+                <NavLink
+                  to="/login"
+                  exact
+                  className="nav-link"
+                >
+                  Login
+                </NavLink>
+              </button>
+            )} 
         </div>
       </div>
     </nav>

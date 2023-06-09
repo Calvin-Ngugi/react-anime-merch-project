@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <>
-    <NavBar setIsLoggedIn={setIsLoggedIn} />
+    <NavBar setIsLoggedIn={setIsLoggedIn} isLoggedIn={isLoggedIn}/>
     <Switch>
     <Route exact path="/about">
         <About />
