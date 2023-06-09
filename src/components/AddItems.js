@@ -19,7 +19,7 @@ const AddItems = ({ cards, setCards }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`https://react-anime-merch-api.herokuapp.com/data`, {
+    fetch(`https://anime-merch-api-aa9o.onrender.com/data`, {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -36,7 +36,7 @@ const AddItems = ({ cards, setCards }) => {
   };
 
   return (
-    <div className="container">
+    <div className="container border-1">
       <h2 className="mb-3 text-center">Contribute to our store</h2>
       <p className="mb-3">
         In case you feel generous or are looking to make a quick buck with items

@@ -27,15 +27,27 @@ function Login({ setIsLoggedIn }) {
         <div className="row d-flex justify-content-center">
           <div className="col-md-4">
             <form onSubmit={handleSubmit}>
-              <h3>Sign In</h3>
+              <h3>Sign Up</h3>
               <div className="mb-3 mt-3">
+                <label>Username</label>
+                <input
+                  type="name"
+                  className="form-control"
+                  name="name"
+                  required
+                  placeholder="Enter your username"
+                  value={formData.name}
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="mb-3">
                 <label>Email address</label>
                 <input
                   type="email"
                   className="form-control"
                   name="email"
-                  placeholder="Enter email"
-                  value={formData.email}
+                  required
+                  placeholder="Enter Email"
                   onChange={handleChange}
                 />
               </div>
@@ -45,15 +57,9 @@ function Login({ setIsLoggedIn }) {
                   type="password"
                   className="form-control"
                   name="password"
+                  required
                   placeholder="Enter password"
                   onChange={handleChange}
-                />
-              </div>
-              <div className="form-group form-check">
-                <input
-                  type="checkbox"
-                  className="form-check-input"
-                  id="exampleCheck1"
                 />
               </div>
               <div>

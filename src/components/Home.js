@@ -11,7 +11,7 @@ const Home = ({isLoggedIn}) => {
     const [merchPerPage] = useState(4)
 
     useEffect(() => {
-      fetch(`https://react-anime-merch-api.herokuapp.com/data`)
+      fetch(`https://anime-merch-api-aa9o.onrender.com/data`)
       .then((res) => res.json())
       .then((aniInfo) => {
         setCards(aniInfo);

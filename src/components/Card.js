@@ -5,7 +5,7 @@ const Card = ({ merch, setCards, cards }) => {
   const { addItem } = useCart();
 
   function handleDelete() {
-    fetch(`https://react-anime-merch-api.herokuapp.com/data/${merch.id}`, {
+    fetch(`https://anime-merch-api-aa9o.onrender.com/data/${merch.id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
